@@ -8,10 +8,9 @@ const rl = createInterface({
 });
 (async () => {
   try {
-    const a = await rl.question("Masukkan tanggal : \n");
-    getConvertionDate(a);
-    dateConvert(a);
-    rl.close();
+    const newDate = await rl.question("Masukkan tanggal : \n");
+    getConvertionDate(newDate);
+    dateConvert(newDate);
   } catch (error) {
     console.log(error);
   } finally {
