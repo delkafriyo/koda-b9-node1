@@ -34,14 +34,26 @@ const rl = createInterface({
 //   d = 2;
 
 // Stylistic Function Parent Newline
+//Dibawah ini contoh yang tidak sesuai dengan aturan yang kita buat
+//function multyNum(
+// num1, num2) {
+// return num1 * num2}
+
+//Dibawah ini contoh yang sudah sesuai aturan
 // function addNum(num1, num2) {
 //   return num1 + num2;
 // }
 
 // Stylistic implicit arrow linebreak
+//Dibawah ini contoh tidak sesuai dengan aturan yang kita buat
+// let f = (num1, num2) =>
+// num1 * num2
+
+//Dibawah ini contoh yang sudah mengikuti aturan
 // let e = (cb, ce) => cb * ce;
 
 // Stylistic Comma Spacing
+// dibawah ini sudah sesuai dengan aturan yang kita buat
 // addNum(c, d);
 
 // e(c, d);
